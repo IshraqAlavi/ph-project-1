@@ -454,3 +454,58 @@
 .contact-textarea::placeholder {
   color: #999;
 }
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f5f8ff;
+}
+
+/* Footer content */
+.footer-content {
+  width: 100%;
+  padding: 105px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Footer logo */
+.footer-logo {
+  font-size: 100px;
+  color: #4e47ff;
+  font-family: Inter, sans-serif;
+  font-weight: bolder;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Footer description text */
+.footer-text {
+  font-size: 16px;
+  color: #8987A1;
+  font-family: Inter, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+/* Footer navigation links */
+.footer-links {
+  display: flex;
+  gap: 48px;
+  margin-top: 10px;
+  list-style: none;
+}
+
+/* Footer link styling */
+.footer-links a {
+  text-decoration: none;
+  color: #8987A1;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+}
