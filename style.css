@@ -355,3 +355,102 @@
   margin: 0;
   font-family: Inter, sans-serif;
 }
+
+/* SECTION: CALL TO ACTION */
+
+.action-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 61px 150px 71px;
+  border-radius: 14px;
+}
+
+.action-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  line-height: 1;
+}
+
+.action-caption {
+  font-size: 16px;
+  color: #737380;
+  margin: 0;
+  font-family: Inter, sans-serif;
+  text-align: center;
+}
+
+.action-image {
+  width: 100%;
+  max-width: 1140px;
+  height: auto;
+  border-radius: 48px;
+}
+
+
+/*SECTION: CONTACT FORM*/
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 150px;
+  gap: 80px;  
+}
+
+/* Shared column layout */
+.contact-column {
+  flex: 1;
+}
+
+/* Left column with text */
+.contact-column--intro {
+  justify-content: flex-start;
+  font-size: 50px;
+  padding: 100px 0;
+}
+
+/* Right column-form */
+.contact-column--form {
+  width: 100%;
+}
+
+/* Label form fields */
+.label {
+  font-size: 18px;
+  font-family: Inter, sans-serif;
+  font-weight: medium;
+}
+
+/* Form input and textarea styles */
+.contact-input,
+.contact-textarea {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #d6dded;
+  border-radius: 0.5rem;
+  font-size: 20px;
+  font-family: inherit;
+  color: #808080;
+  background-color: #fff;  
+  margin-bottom: 20px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+/* Placeholder text style */
+.contact-input::placeholder,
+.contact-textarea::placeholder {
+  color: #999;
+}
