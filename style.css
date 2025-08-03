@@ -193,3 +193,70 @@
   height: 328px;
   border-radius: 48px;
 }
+
+/* SECTION: STATISTICS */
+
+.section-stats {
+  display: flex;
+  background-color: #e5e7ff;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: none;
+  border-radius: 24px;
+  max-width: 1140px;
+  padding: 40px 150px 50px;
+  gap: 30px;
+}
+
+/* Header stats section */
+.stats-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 38px;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: #000;
+  line-height: 0;
+}
+
+/* Number blocks stats */
+.stats-numbers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 158px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* individual stat block */
+.stats-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+
+/* Stat number */
+.stat {
+  font-family: Inter, sans-serif;
+  font-size: 80px;
+  color: #4e47ff;
+  margin: 0;
+}
+
+/* Stat label */
+.caption {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #737380;
+  margin: 0;
+}
